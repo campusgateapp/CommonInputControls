@@ -16,10 +16,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
     }
     
    
-    button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
+
 
 
  
