@@ -24,22 +24,22 @@ class ViewController: UIViewController {
 
  
     @IBAction func buttonTapped(_ sender: Any) {
-        print("Button was tapped my guy!")
+        print("Button was tapped!")
 
         if toggle.isOn {
-            print("The switch is on my guy!")
+            print("The switch is on!")
         } else {
-            print("The switch is off my guy.")
+            print("The switch is off.")
         }
 
-        print("The slider is set to \(slider.value) my guy.")
+        print("The slider is set to \(slider.value).")
     }
     
     @IBAction func switchToggled(_ sender: UISwitch) {
         if sender.isOn {
-            print("Switch is on my guy!")
+            print("Switch is on!")
         } else {
-            print("Switch is off my guy!")
+            print("Switch is off!")
         }
     }
     
