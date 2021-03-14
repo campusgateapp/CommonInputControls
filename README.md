@@ -1,7 +1,7 @@
 # CommonInputControls
 Develop In Swift Fundamentals
 
-This is a guided project that is apart of the Develop In Swift Fundamentals book. It is in the "Controls In Action chapter" and in the "Programmatic Actions"
+This is a guided project that is a part of the Develop In Swift Fundamentals book. It is in the "Controls In Action chapter" and in the "Programmatic Actions"
 section. It is a very simple app. It just demonstrates how to add a button, slider, switch and textfield to a view controller and then connect them using the 
 control + drag feature from interface builder to the assistant editor.
 The only problem I'm having is the last step. 
