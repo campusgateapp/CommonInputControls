@@ -12,7 +12,7 @@ button.addTarget(self, action: #selector(buttonTapped(_:)),
    for: .touchUpInside)
 ```
 
-into the viewDidLoad, I get a fatal error message after build completes.
+into the viewDidLoad, I get a fatal error message after the build completes.
 
 ```
 Thread 1: Fatal error: Unexpectedly found nil while implicitly unwrapping an Optional value
