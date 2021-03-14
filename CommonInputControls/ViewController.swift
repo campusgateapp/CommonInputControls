@@ -19,11 +19,6 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
     }
     
-   
-
-
-
- 
     @IBAction func buttonTapped(_ sender: Any) {
         print("Button was tapped!")
 
